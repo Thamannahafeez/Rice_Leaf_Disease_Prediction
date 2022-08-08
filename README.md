@@ -7,6 +7,8 @@ The target has three classes namely
 * Brown Spot
 * Leaf Smut
 
-The images are preprocessed using the ImageDataGenerator from the Tensorflow library.
+The project is done using two separate methods but both yield the same result.
+* One way was using train-test-split method of cross validation and the images were resized and scaled explicitly.
+* The other way was that the images were preprocessed using the ImageDataGenerator from the Tensorflow library.
 
-The neural network model is initialised with two hidden layers in addition to the input and output layers.
+The neural network model is initialised with 3 hidden layers in addition to the input and output layers.
