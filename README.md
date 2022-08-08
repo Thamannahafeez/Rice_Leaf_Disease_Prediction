@@ -12,3 +12,5 @@ The project is done using two separate methods but both yield the same result.
 * The other way was that the images were preprocessed using the ImageDataGenerator from the Tensorflow library.
 
 The neural network model is initialised with 3 hidden layers in addition to the input and output layers.
+
+The model is deployed using the Flask framework.
